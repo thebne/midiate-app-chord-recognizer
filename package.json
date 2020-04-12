@@ -1,14 +1,14 @@
 {
   "name": "@midiate/app-chord-recognizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Meital Avitan",
   "license": "MIT",
   "respository": "thebne/midiate-app-chord-recognizer",
   "files": [
     "dist"
   ],
-	"main": "dist/index.js",
-	"module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "private": true,
   "scripts": {
     "start": "rollup -c -w",
