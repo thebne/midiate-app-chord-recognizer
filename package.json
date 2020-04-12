@@ -1,7 +1,7 @@
 {
   "name": "@midiate/app-chord-recognizer",
   "description": "MIDIate-compatible chord recognition visualizer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Meital Avitan",
   "license": "MIT",
   "respository": {
