@@ -9,13 +9,9 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
-  "private": true,
   "scripts": {
     "start": "rollup -c -w",
     "build": "rollup -c"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "peerDependencies": {
     "@tonaljs/chord-detect": "^3.5.1",
