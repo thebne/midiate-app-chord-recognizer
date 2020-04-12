@@ -1,15 +1,20 @@
 {
   "name": "@midiate/app-chord-recognizer",
-	"description": "MIDIate-compatible chord recognition visualizer",
-  "version": "1.0.2",
+  "description": "MIDIate-compatible chord recognition visualizer",
+  "version": "1.0.3",
   "author": "Meital Avitan",
   "license": "MIT",
   "respository": {
-		"type": "git",
-		"url": "https://github.com/thebne/midiate-app-chord-recognizer"
-	},
-	"homepage": "https://github.com/thebne/midiate-app-chord-recognizer",
-	"keywords": ["midi", "piano", "chord", "music"],
+    "type": "git",
+    "url": "https://github.com/thebne/midiate-app-chord-recognizer"
+  },
+  "homepage": "https://github.com/thebne/midiate-app-chord-recognizer",
+  "keywords": [
+    "midi",
+    "piano",
+    "chord",
+    "music"
+  ],
   "files": [
     "dist"
   ],
