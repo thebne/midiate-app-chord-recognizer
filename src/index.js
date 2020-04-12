@@ -2,10 +2,9 @@ import React, { useEffect, useState, Fragment } from 'react'
 import { Animate } from 'react-move'
 import { interpolate, interpolateTransformSvg } from 'd3-interpolate'
 import { easeSinOut } from 'd3-ease'
-import styles from './Style.module.css'
+import styles from './style.module.css'
 
-let ColorHash = require('color-hash')
-
+const ColorHash = require('color-hash')
 const colorHash = new ColorHash({lightness: .5})
 
 export default function ChordRecognizer({currentChords}) {
@@ -133,17 +132,7 @@ export default function ChordRecognizer({currentChords}) {
   )
 }
   
-// TODO move to config.json
-export function config() {
-  return {name: "Chord Recognizer"}
-}
-
-export function StatusBar({currentChords}) {
-  const detection = currentChords.detection ? currentChords.detection[0] : <i style={{color: '#ccc'}}>chord</i>
-  return <span className={styles.statusBar}>{detection}</span>
-}
-
-export let createSelectors = (selectors, state) => ({
-   getLastEvent: selectors.getLastEvent(state),
-   currentChords: selectors.getCurrentChords(state),
-  })
+// midiate support
+export { default as config } from './midiate/config'
+export { default as StatusBar } from './midiate/statusBar'
+export { default as createSelectors } from './midiate/selectors'
